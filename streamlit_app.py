@@ -89,7 +89,7 @@ def main():
     with st.container():
         st.image('./chatbot_logo.png', use_container_width=True)
         st.markdown('---')
-        st.title("안녕하세요! '모빌리오 AI 비서 빌리' 입니다")
+        st.title("안녕하세요! 모빌리오 AI 비서 빌리입니다 무엇을 도와드릴까요?")
 
     if "messages" not in st.session_state:
         st.session_state["messages"] = []
